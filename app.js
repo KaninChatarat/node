@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/img', express.static(path.join(__dirname, 'public/img/img')));
-app.use('/css', express.static(path.join(__dirname, 'public/stylesheets/css')));
+app.use('/css', express.static(path.join(__dirname, 'public/stylesheets/')));
 
 app.use('/lib', express.static(path.join(__dirname, 'lib')));
 app.use('/js', express.static(path.join(__dirname, 'js')));
