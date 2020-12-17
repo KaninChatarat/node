@@ -25,7 +25,7 @@ router.get('/getData', function(req, res, next) {
             res.send(result);
         })
     con.end()
-});
+    });
 });
 
 module.exports = router;
